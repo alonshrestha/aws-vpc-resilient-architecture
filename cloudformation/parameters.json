@@ -1,0 +1,30 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "cwa"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "dev"
+  },
+  {
+    "ParameterKey": "VpcCidr",
+    "ParameterValue": "10.0.0.0/16"
+  },
+  {
+    "ParameterKey": "PublicSubnets",
+    "ParameterValue": "10.0.10.0/24, 10.0.20.0/24, 10.0.30.0/24"
+  },
+  {
+    "ParameterKey": "PrivateNatSubnets",
+    "ParameterValue": "10.0.11.0/24, 10.0.21.0/24, 10.0.31.0/24"
+  },
+  {
+    "ParameterKey": "PrivateSubnets",
+    "ParameterValue": "10.0.12.0/24, 10.0.22.0/24, 10.0.32.0/24"
+  },
+  {
+    "ParameterKey": "AvailabilityZones",
+    "ParameterValue": "us-east-1a, us-east-1b, us-east-1c"
+  }
+]
