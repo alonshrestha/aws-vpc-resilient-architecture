@@ -14,7 +14,7 @@ This project provides an AWS CloudFormation template for creating a highly resil
 
 ## Architecture Diagram
 
-*(You can include an architecture diagram here if available)*
+![AWS VPC High Resiliency Architecture](docs/vpc-architecture.png)
 
 ## Prerequisites
 
@@ -25,8 +25,8 @@ This project provides an AWS CloudFormation template for creating a highly resil
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/alonshrestha/aws-vpc-resilient-architecture.git
+   cd aws-vpc-resilient-architecture/cloudformation 
    ```
 
 2. **Update Parameters**: Modify the `parameters.json` file to set the desired values for your project, including:
@@ -40,7 +40,7 @@ This project provides an AWS CloudFormation template for creating a highly resil
 
    - Using the AWS CLI:
      ```bash
-     aws cloudformation create-stack --stack-name YourStackName --template-body file://path/to/your/vpc.yaml --parameters file://path/to/parameters.json
+     aws cloudformation create-stack --stack-name YourStackName --template-body file://vpc.yaml --parameters file://parameters.json
      ```
 
 4. **Monitor Stack Creation**: Monitor the progress of the stack creation in the AWS Management Console.
@@ -59,7 +59,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
