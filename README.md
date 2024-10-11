@@ -1,4 +1,4 @@
-# AWS VPC CloudFormation Template for High Resiliency Architecture
+# AWS VPC CloudFormation Template for a Highly Resilient Architecture
 
 ## Overview
 
